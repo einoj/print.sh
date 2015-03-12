@@ -73,7 +73,7 @@ fi
 echo -e "${green}OK${nc}"
 # send the file to be printed to uio
 printf "Transferring file...           "
-scp $filename $username$server":"$file_path
+scp -q $filename $username$server":"$file_path
 echo -e "${green}OK\n${nc}"
 
 #remove path specifiers from the filename so only the filname remains.
