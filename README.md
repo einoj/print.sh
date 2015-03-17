@@ -11,6 +11,7 @@ Then run the script
 ```
 ./print.sh filename printername
 ```
+I strongly recommend installing your public ssh-key on the server to avoid having to write your password three times.
 #How to install
 It is not necessary to install the script to use it.
 However if you want any user to be able to use the script you can install it by running the install script.
